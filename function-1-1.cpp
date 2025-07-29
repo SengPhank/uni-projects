@@ -1,7 +1,7 @@
 #include <iostream>
 
 void hello() {
-    std::cout << "Object-Orientated Programming" << std::endl;
+    std::cout << "Object-Oriented Programming" << std::endl;
 
     return;
 }
