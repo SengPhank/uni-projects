@@ -8,6 +8,11 @@ The function must return 0 if the size parameter, n, is even or if it is less th
 #include <algorithm>
 #include <vector>
 int median_array(int array[], int n) {
+    // edge case
+    if (n < 1) { return 0; }
+    if (n == 1) { return array[0]; }
+    if (n%2 == 0) { return 0;}
+
     // to vector to enable sorting
     std::vector<int> heapVector;
     for (int i = 0; i < n; i++) {
@@ -15,11 +20,12 @@ int median_array(int array[], int n) {
     }
     sort(heapVector.begin(), heapVector.end());
 
-    if (n < 1) { return 0; }
+    /*
     if (n%2 == 0) {
         int middleValue = heapVector[(n/2)-1] + heapVector[n/2];
         return middleValue/2;
     }
+    */
     return heapVector[n/2];
 }
 
