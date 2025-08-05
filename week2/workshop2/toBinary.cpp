@@ -1,4 +1,4 @@
-// Convert integer to binary
+// Convert integer to binary (before workshop)
 #include <iostream>
 #include <string>
 #include <algorithm>
