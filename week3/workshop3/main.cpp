@@ -22,15 +22,17 @@ int main(void) {
     // std::cout << arrayMax(a, 5) << std::endl;
 
     // PART 5, 6, 7 create dynaArray
-    double* heapA = dynamicArray(5, 1);
-    for (int i = 0; i < 5; i++) {
-        std::cout << heapA[i] << " ";
-    }
-    std::cout << std::endl;
+    // double* heapA = dynamicArray(5, 1);
+    // for (int i = 0; i < 5; i++) {
+    //     std::cout << heapA[i] << " ";
+    // }
+    // std::cout << std::endl;
 
-    // PART 6
-    std::cout << arrayMax(heapA, 10) << std::endl;
-    delete[] heapA;
+    // // PART 6
+    // std::cout << arrayMax(heapA, 10) << std::endl;
+    // delete[] heapA;
 
     return 0;
 }
+
+// 
