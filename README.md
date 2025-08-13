@@ -1,10 +1,9 @@
 | University of Adelaide OOP Progress |
 | ------------------------------------|
-| Name:                  |       aa           |
+| Name:            |      Seng        |
 |                  |                  |
 |                  |                  |
 |                  |                  |
-Full journey of my OOP class (it'll be fun!)
 
 # Git Notes
 - git branch <sample> 
