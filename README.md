@@ -1,5 +1,5 @@
-| University of Adelaide OOP Progress |
-| ------------------------------------|
+| University of Ad | aide OOP Progress|
+| -----------------| -----------------|
 | Name:            |      Seng        |
 |                  |                  |
 |                  |                  |
