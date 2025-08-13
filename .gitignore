@@ -1,2 +1,5 @@
-# Executables (a.txt rms current directy, **/a.txt rms from all dir)
+# Executables (a.txt rms current directy, **/a.txt rms from all dir) (*.txt ignores all txt files)
 **/a.out
+*.exe
+
+
