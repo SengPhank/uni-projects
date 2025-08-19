@@ -1,5 +1,7 @@
 #include <iostream>
-#include <set>
+#include <vector>
+#include <algorithm>
+
 int* readNumbers(void) {
     int amount = 4;
     int* heapArray = new int[amount];
@@ -22,14 +24,18 @@ void printNumbers(int* heapArray, int n) {
 }
 
 int secondSmallestSum(int *numbers,int length) {
-    std::set<int> nums;
+    if (length < 1) { return 0; }
+    if (length == 1) { return numbers[0]; }
+    
+    std::vector<int> nums;
     for (int i = 0; i < length; i++) {
         int curSum = 0;
         for (int j = i; j < length; j++) {
             curSum += numbers[j];
-            nums.insert(curSum);
+            nums.push_back(curSum);
         }
     }
 
-    return *(++nums.begin());
+    std::sort(nums.begin(), nums.end());
+    return nums[1];
 }

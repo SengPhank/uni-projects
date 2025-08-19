@@ -11,7 +11,7 @@ print in the format 'index : value'
 
 #include <iostream>
 
-int* readNumbers(void) {
+int* readNumbers() {
     int* heapArray = new int[10];
     int temp;
     for (int i = 0; i < 10; i++) {
@@ -22,12 +22,12 @@ int* readNumbers(void) {
     return heapArray;
 }
 
-void printNumbers(int* heapArray, int n) {
-    for (int i = 0; i < n; i++) {
-        std::cout << i << " " << heapArray[i] << std::endl;
+void printNumbers(int *numbers,int length) {
+    for (int i = 0; i < length; i++) {
+        std::cout << i << " " << numbers[i] << std::endl;
     }
 
-    delete[] heapArray;
+    delete[] numbers;
 
     return;
 }
