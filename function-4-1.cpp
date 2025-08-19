@@ -10,6 +10,16 @@ int* readNumbers(void) {
 
     return heapArray;
 }
+void printNumbers(int* heapArray, const int& n) {
+    for (int i = 0; i < n; i++) {
+        std::cout << i << " " << heapArray[i] << std::endl;
+    }
+
+    delete[] heapArray;
+
+    return;
+}
+
 int secondSmallestSum(int *numbers,int length) {
     int largest = 0;
     int second = 0;
@@ -18,12 +28,12 @@ int secondSmallestSum(int *numbers,int length) {
         int curSum = 0;
         for (int j = i; j < length; j++) {
             curSum += numbers[j];
-        }
-        if (curSum > largest) {
-            second = largest;
-            largest = curSum;
-        } else if (curSum > second) {
-            second = curSum;
+            if (curSum > largest) {
+                second = largest;
+                largest = curSum;
+            } else if (curSum > second) {
+                second = curSum;
+            }
         }
     }
 

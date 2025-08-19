@@ -11,6 +11,16 @@ int* readNumbers(void) {
     return heapArray;
 }
 
+void printNumbers(int* heapArray, const int& n) {
+    for (int i = 0; i < n; i++) {
+        std::cout << i << " " << heapArray[i] << std::endl;
+    }
+
+    delete[] heapArray;
+
+    return;
+}
+
 bool equalsArray(int *numbers1,int *numbers2,int length) {
     if (length < 1) { return false; }
 

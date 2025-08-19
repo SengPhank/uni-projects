@@ -1,7 +1,7 @@
 #include <iostream>
 
 extern int* readNumbers(void);
-extern void hexDigits(int*, const int&);
+extern void hexDigits(int*, int);
 
 int main(void) {
     int* heap = readNumbers();
