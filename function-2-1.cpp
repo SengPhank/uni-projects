@@ -57,8 +57,5 @@ void hexDigits(int* heapArray, int n) {
         }
         
     }
-
-    delete[] heapArray;
-
     return;
 }
