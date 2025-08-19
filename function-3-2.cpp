@@ -10,7 +10,7 @@ int* readNumbers(void) {
 
     return heapArray;
 }
-void printNumbers(int* heapArray, const int& n) {
+void printNumbers(int* heapArray, int n) {
     for (int i = 0; i < n; i++) {
         std::cout << i << " " << heapArray[i] << std::endl;
     }

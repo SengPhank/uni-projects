@@ -1,7 +1,7 @@
 #include <iostream>
 
 extern int* readNumbers(void);
-extern void printNumbers(int*, const int&);
+extern void printNumbers(int*, int);
 
 int main(void) {
     int* heap = readNumbers();

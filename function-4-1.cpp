@@ -1,16 +1,17 @@
 #include <iostream>
-
+#include <set>
 int* readNumbers(void) {
-    int* heapArray = new int[10];
+    int amount = 4;
+    int* heapArray = new int[amount];
     int temp;
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < amount; i++) {
         std::cin >> temp;
         heapArray[i] = temp;
     }
 
     return heapArray;
 }
-void printNumbers(int* heapArray, const int& n) {
+void printNumbers(int* heapArray, int n) {
     for (int i = 0; i < n; i++) {
         std::cout << i << " " << heapArray[i] << std::endl;
     }
@@ -21,21 +22,14 @@ void printNumbers(int* heapArray, const int& n) {
 }
 
 int secondSmallestSum(int *numbers,int length) {
-    int largest = 0;
-    int second = 0;
-
+    std::set<int> nums;
     for (int i = 0; i < length; i++) {
         int curSum = 0;
         for (int j = i; j < length; j++) {
             curSum += numbers[j];
-            if (curSum > largest) {
-                second = largest;
-                largest = curSum;
-            } else if (curSum > second) {
-                second = curSum;
-            }
+            nums.insert(curSum);
         }
     }
 
-    return second;
+    return *(++nums.begin());
 }

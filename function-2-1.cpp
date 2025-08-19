@@ -15,7 +15,7 @@ int* readNumbers(void) {
     return heapArray;
 }
 
-void printNumbers(int* heapArray, const int& n) {
+void printNumbers(int* heapArray, int n) {
     for (int i = 0; i < n; i++) {
         std::cout << i << " " << heapArray[i] << std::endl;
     }
@@ -25,7 +25,7 @@ void printNumbers(int* heapArray, const int& n) {
     return;
 }
 
-void hexDigits(int* heapArray, const int& n) {
+void hexDigits(int* heapArray, int n) {
     // You may assume that all ints are numbers in the range 0 to 15.
     char toPrint;
     for (int i = 0; i < n; i++) {
