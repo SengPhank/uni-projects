@@ -3,7 +3,7 @@
 #include <algorithm>
 
 int* readNumbers(void) {
-    int amount = 4;
+    int amount = 10;
     int* heapArray = new int[amount];
     int temp;
     for (int i = 0; i < amount; i++) {
@@ -17,9 +17,6 @@ void printNumbers(int* heapArray, int n) {
     for (int i = 0; i < n; i++) {
         std::cout << i << " " << heapArray[i] << std::endl;
     }
-
-    delete[] heapArray;
-
     return;
 }
 
