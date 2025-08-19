@@ -3,7 +3,7 @@
 #include <algorithm>
 
 int* readNumbers(void) {
-    int amount = 4;
+    int amount = 10;
     int* heapArray = new int[amount];
     int temp;
     for (int i = 0; i < amount; i++) {
