@@ -1,9 +1,9 @@
-| University of Ad   aide OOP Progress|
-| ------------------------------------|
-| Name:            |      Seng        |
-|                  |                  |
-|                  |                  |
-|                  |                  |
+| University of Adelaide – OOP Progress  |
+|:--------------------------------------:|
+| **Name**   | Seng Phank                |
+| **Year**   | First Year                |
+| **Status** | 100% Streak OOP           |
+
 
 # Git Notes
 - git branch <sample> 
