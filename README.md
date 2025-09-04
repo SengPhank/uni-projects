@@ -1,4 +1,4 @@
-| **University of Adelaide – OOP Progress** |   |
+| **University of Adelaide – OOP Progress** |
 |:------------------------------------------|:--|
 | **Name**   | Seng Phank                   |
 | **Year**   | First Year                   |
