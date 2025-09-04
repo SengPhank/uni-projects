@@ -1,8 +1,9 @@
-| University of Adelaide – OOP Progress  |
-|:--------------------------------------:|
-| **Name**   | Seng Phank                |
-| **Year**   | First Year                |
-| **Status** | 100% Streak OOP           |
+| **University of Adelaide – OOP Progress** |   |
+|:------------------------------------------|:--|
+| **Name**   | Seng Phank                   |
+| **Year**   | First Year                   |
+| **Status** | 100% Streak OOP              |
+
 
 
 # Git Notes
