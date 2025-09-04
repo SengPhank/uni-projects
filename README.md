@@ -1,8 +1,21 @@
-| **University of Adelaide – OOP Progress** |
-|:------------------------------------------|:--|
-| **Name**   | Seng Phank                   |
-| **Year**   | First Year                   |
-| **Status** | 100% Streak OOP              |
+<table>
+  <tr>
+    <th colspan="2" style="text-align:center;">University of Adelaide – OOP Progress</th>
+  </tr>
+  <tr>
+    <td><b>Name</b></td>
+    <td>Seng Phank</td>
+  </tr>
+  <tr>
+    <td><b>Year</b></td>
+    <td>First Year</td>
+  </tr>
+  <tr>
+    <td><b>Status</b></td>
+    <td>100% Streak OOP</td>
+  </tr>
+</table>
+
 
 
 
