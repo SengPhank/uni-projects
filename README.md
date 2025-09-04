@@ -4,7 +4,7 @@
   </tr>
   <tr>
     <td><b>Name</b></td>
-    <td>Seng Phank</td>
+    <td>Seng... Phank...</td>
   </tr>
   <tr>
     <td><b>Year</b></td>
@@ -12,7 +12,7 @@
   </tr>
   <tr>
     <td><b>Status</b></td>
-    <td>100% Streak OOP</td>
+    <td>C++ Newb</td>
   </tr>
 </table>
 
