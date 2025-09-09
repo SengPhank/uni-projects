@@ -24,6 +24,15 @@ int Appliance::getPowerRating() {
     return this->powerRating;
 }
 
+void Appliance::set_powerRating(int pR) {
+    this->powerRating = pR;
+}
+int Appliance::get_powerRating() {
+    return this->powerRating;
+}
+bool Appliance::get_isOn() {
+    return this->isOn;
+}
 // Virtual
 double Appliance::getPowerConsumption() {
     return 0.0L; 
