@@ -5,6 +5,7 @@
 #include <vector>
 using namespace std;
 
+bool error = false; // hacky ik
 typedef vector<int> Records;
 class RecordsManager {
  private:
@@ -25,9 +26,11 @@ class RecordsManager {
         } catch (const std::invalid_argument& stoiNumber) {
             // std::cout << "Stoi input error: " << stoiNumber.what() << " for text: " << line << std::endl;
             std::cout << "invalid_argument error" << std::endl;
+            error = true;
         } catch (const std::out_of_range& stoiOverflow) {
             // std::cout << "Stoi integer error: " << stoiOverflow.what() << " for text: " << line << std::endl;
             std::cout << "out_of_range error" << std::endl;
+            error = true;
         }
       }
       _file.close();
@@ -46,6 +49,6 @@ int main(int argc, char* argv[]) {
   for (int i = 0; i < myRecords.size(); i++) {
     sum += myRecords[i];
   }
-  if (sum) cout << sum << endl;
+  if (!error) cout << sum << endl;
   return 0;
 }
