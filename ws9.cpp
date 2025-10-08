@@ -24,8 +24,10 @@ class RecordsManager {
             records.push_back(value);
         } catch (const std::invalid_argument& stoiNumber) {
             // std::cout << "Stoi input error: " << stoiNumber.what() << " for text: " << line << std::endl;
+            std::cout << "invalid_argument error" << std::endl;
         } catch (const std::out_of_range& stoiOverflow) {
             // std::cout << "Stoi integer error: " << stoiOverflow.what() << " for text: " << line << std::endl;
+            std::cout << "out_of_range error" << std::endl;
         }
       }
       _file.close();
@@ -44,6 +46,6 @@ int main(int argc, char* argv[]) {
   for (int i = 0; i < myRecords.size(); i++) {
     sum += myRecords[i];
   }
-  cout << sum << endl;
+  if (sum) cout << sum << endl;
   return 0;
 }
