@@ -1,41 +1,18 @@
-<table>
-  <tr>
-    <th colspan="2" style="text-align:center;">University of Adelaide – OOP Progress</th>
-  </tr>
-  <tr>
-    <td><b>Name</b></td>
-    <td>Seng... Phank...</td>
-  </tr>
-  <tr>
-    <td><b>Year</b></td>
-    <td>First Year</td>
-  </tr>
-  <tr>
-    <td><b>Status</b></td>
-    <td>C++ Newb</td>
-  </tr>
-</table>
+# University Progress Repository
+A repository for tracking my academic work and development throughout my degree. This repository will collect coursework, exercises, and personal explorations across multiple subjects as I progress through university.
+## Purpose
+This repository grows alongside my studies and will reflect the skills, tools, and concepts I’m learning over time. More subjects and projects will be added as I continue through the program.
 
+## Coursework Included
+### MATLAB & C  
+This combined course introduces the fundamentals of programmings. 
+- The MATLAB component focuses on algorithmic thinking, basic data structures such as arrays, and general problem‑solving techniques. 
+- The C component builds on these foundations by teaching low‑level programming concepts, including memory management, pointers, and manual control over program behavior.
 
-
-
-# Git Notes
-- git branch <sample> 
-get the branches available, or create a new branch
-
-- git checkout <branch_name>
-move to a different branch
-
-- git add <file_name>
-add file ready to be commit, (or use '.' to add all files)
-
-- git commit -m 'msg'
-commit changes
-
-- git push origin <branch>
-publish the changes 
-
-- git merge <feature_branch>
-must be on a main branch to merge, essentially overwriting and updating the merge location branch
+### Object‑Oriented Programming (C++)  
+This course teaches the core principles of object‑oriented design using C++. 
+- It covers the four pillars of OOP—encapsulation, inheritance, polymorphism, and abstraction, while introducing class design, interfaces, and modular software architecture. 
+- Coursework includes hands‑on projects that apply these concepts to real program structures.
+- The C++ component builds on the foundations of C while offering a more approachable programming experience.
 
 
