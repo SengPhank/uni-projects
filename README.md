@@ -11,7 +11,7 @@ This combined course introduces the fundamentals of programmings.
 
 ### Object‑Oriented Programming (C++)  
 This course teaches the core principles of object‑oriented design using C++. 
-- It covers the four pillars of OOP—encapsulation, inheritance, polymorphism, and abstraction, while introducing class design, interfaces, and modular software architecture. 
+- It covers the four pillars of OOP encapsulation, inheritance, polymorphism, and abstraction, while introducing class design, interfaces, and modular software architecture. 
 - Coursework includes hands‑on projects that apply these concepts to real program structures.
 - The C++ component builds on the foundations of C while offering a more approachable programming experience.
 
