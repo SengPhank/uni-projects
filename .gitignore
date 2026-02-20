@@ -5,3 +5,7 @@
 **/build/
 **/install/
 **/log/
+
+# CS
+obj/
+bin/
