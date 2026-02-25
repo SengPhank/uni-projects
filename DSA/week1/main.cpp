@@ -17,7 +17,6 @@ int main(void) {
     for (int i = 0; i < n; i++) {
         v[i] = i;
     }
-    std::cout << "completed vector init" << std::endl;
 
     // Start Timer
     auto init = std::chrono::high_resolution_clock::now();
@@ -32,6 +31,6 @@ int main(void) {
     std::chrono::duration<double> elapsed = finish - init;
 
     // Returns the average time to access a random index on v
-    std::cout << "Average: " << (double) (elapsed.count())/1000 << std::endl;
+    std::cout << (double) (elapsed.count())/1000 << std::endl;
     return 0;
 }
