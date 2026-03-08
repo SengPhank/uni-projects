@@ -15,8 +15,8 @@ This course teaches the core principles of object‑oriented design using C++.
 - Coursework includes hands‑on projects that apply these concepts to real program structures.
 - The C++ component builds on the foundations of C while offering a more approachable programming experience.
 
-### Software Development Practice (C#)  
-This course provides opportunities to leverage object-orientated programming skills with DSA to solve problems.
-- It covers OOP core techniques such as inheritance, polymorphism, and collection classes
-- This course also covers code quality practices refactoring, and the selection of optimal DSA for specific problems.
-- C# is the main language used, and we must learn how to use the .NET SDK
+### Data Structures and Algorithms (C++)
+This course introduces the fundamentals on Data Structures and Algorithms, and how to code optimally.
+- Time complexity and optimisation is taught in this course
+- Important Data structures such as Trees, Graphs, Hash Tables are also taught.
+- Fundamental algorithms including sorting, recursive and distribution are taught.
