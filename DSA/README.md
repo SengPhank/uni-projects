@@ -2,4 +2,7 @@
 Arrays and RAM Instructions
 
 # Week2 Topic
-Time complexities
+Time complexities and reducing code time
+
+# Week3
+Recursion (and memoization/dp), Master Theorem
